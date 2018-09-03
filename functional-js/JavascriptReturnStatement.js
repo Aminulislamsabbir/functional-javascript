@@ -1,19 +1,19 @@
-// function name (firstname, lastname, gender) {
+function name (firstname, lastname, gender) {
 
-//     if (gender === 'Male') {
-//         var person = ['Mr ' + firstname + ' ' + lastname]
-//         return person;
-//     }else if (gender === 'Female') {
-//         var person = ['Ms ' + firstname + ' ' + lastname]
-//         return person;
+    if (gender === 'Male') {
+        var person = ['Mr ' + firstname + ' ' + lastname]
+        return person;
+    }else if (gender === 'Female') {
+        var person = ['Ms ' + firstname + ' ' + lastname]
+        return person;
 
-//     }
+    }
 
-// }
+}
 
-// var PersonName = name('Aminul Islam', 'Sabbir', 'Male');
+var PersonName = name('Aminul Islam', 'Sabbir', 'Male');
 
-// console.log(PersonName);
+console.log(PersonName);
 
 // code Diffarent
 
