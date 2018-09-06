@@ -1,3 +1,5 @@
+// The function that takes a function as argument and returns a function, and that function will be a pure function
+
 function greet (msg) {
     return function (name) {
         console.log(msg + ' ' + name );
@@ -11,14 +13,11 @@ function greet (msg) {
 }
 var result = greet ('Good Morning')('Aminul Islam Sabbir')('Happy Coding');
 
-function outer () {
-
-    console.log('I am host Function');
-  
-    return  function () {
-        console.log('I am inner Function');
-
-    }   
+function myFun () {
+    return function (name) {
+        return name + ' is a problem solver';
+    }
 }
 
-var acb = outer()();
+var p = myFun()('Aminul Islam Sabbir')
+p;
