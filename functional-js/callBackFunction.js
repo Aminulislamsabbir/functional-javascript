@@ -55,7 +55,7 @@ Greet(obj, function (data) {
 
 Greet(obj, function (data) {
     for(var props in data) {
-        console.log('AI Sabbir ' + data[props]);
+        console.log( data[props]);
     }
 })
 
