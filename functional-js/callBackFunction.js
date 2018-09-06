@@ -1,4 +1,4 @@
-// When I pass a Function inside a function and pass the function to argument form it is call back function
+// When I pass a Function inside a function and pass the function to argument form it is a call back function
 
 function mycall (name,cp){
     cp (name);
