@@ -20,4 +20,7 @@ function myFun () {
 }
 
 var p = myFun()('Aminul Islam Sabbir')
-p;
+var x = p.toUpperCase();
+console.log(x);
+
+
