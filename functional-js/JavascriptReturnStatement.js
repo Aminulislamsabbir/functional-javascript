@@ -8,7 +8,6 @@ function name (firstname, lastname, gender) {
         return person;
 
     }
-
 }
 
 var PersonName = name('Aminul Islam', 'Sabbir', 'Male');
@@ -29,6 +28,7 @@ function name (firstname, lastname, gender) {
     }
 var PersonName = name('Aminul Islam', 'Sabbir', 'Male');
 console.log(PersonName);
+
 
 
 
