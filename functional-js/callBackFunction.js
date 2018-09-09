@@ -63,3 +63,35 @@ Greet(obj, function (data) {
 Greet (obj, function (data) {
     console.log(obj.Name.toUpperCase());
 })
+
+
+function Dowhatever (a,b, callback) {
+     return callback (a,b);
+}
+
+var add = Dowhatever (23,4, function (a,b){
+    return a+b;
+} )
+
+var subtract = Dowhatever (22,20, function(a,b) {
+    return a -b;
+} )
+
+var multiply = Dowhatever (5,6, function (a,b) {
+    return a*b;
+})
+
+
+var divide = Dowhatever (50,10, function (a,b) {
+    return a/b
+})
+
+console.log(add);
+console.log(subtract);
+console.log(multiply);
+console.log(divide);
+
+
+
+
+
