@@ -92,6 +92,68 @@ console.log(multiply);
 console.log(divide);
 
 
+var Books = [   
+    {
+        title : 'JavaScript Definitive Guideline',
+         price : 300
+    },
+     
+    {
+        title : 'You Don\'t know javaScript', 
+        price : 50
+    },
+
+    {
+        title : 'Elon Musk', 
+        price : 70
+    },
+
+    {
+        title : 'Rich Dad and Poor Dad', 
+        price : 50
+    },
+
+    {
+        title : 'How to java program' ,
+        price : 200
+    },
+
+    {
+        title : 'JavaScript Coocked Book' , 
+        price : 80
+    }
+]
+
+function Myfind (arr, callback) {
+    var result = [];
+
+    for (var i = 0; i < arr.length; i++) {
+        if(callback(arr[i])){
+            result.push(arr[i])
+        }
+    }
+    return result;
+}
+
+var Big = Myfind(Books, function(n) {
+    return n.price > 50;
+})
+console.log(Big);
+
+var bookslength = Myfind (Books , function(n) {
+    return n.title.length > 22
+})
+
+console.log(bookslength);
+
+var num = [32,45,67,89,90,444,56,74,887,5,7554,88,3345,33];
+
+var even = Myfind(num, function(n){
+    return n%2 === 1
+})
+
+console.log(even);
+
 
 
 
