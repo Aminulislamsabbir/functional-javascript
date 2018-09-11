@@ -4,6 +4,11 @@ arr.forEach(function(element, index) {
     console.log('Element Value is ' + element + ' Index of ' + index);
 })
 
+ arr.forEach(function (n) {
+    console.log( n*n);
+})
+
+\
 // foreach function make
 
 function Myfunction (arr, callback){
