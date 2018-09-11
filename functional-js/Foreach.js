@@ -8,7 +8,7 @@ arr.forEach(function(element, index) {
     console.log( n*n);
 })
 
-\
+
 // foreach function make
 
 function Myfunction (arr, callback){
