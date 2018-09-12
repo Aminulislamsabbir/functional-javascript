@@ -20,3 +20,12 @@ var arrmap = Myfunction(arr, function (n) {
 })
 
 console.log(arrmap);
+
+var myObject = {a: 1, b:2, c:3, d:4 };
+
+Object.keys(myObject).map(function(key) {
+    myObject[key] *= 2;
+ });
+ 
+ console.log(myObject);
+ 
